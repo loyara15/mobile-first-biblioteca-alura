@@ -1,3 +1,5 @@
+@import url("../style/header.css");
+
 :root{
     --cor-de-fundo:#EBECEE;
     --cor-de-fundo:#FFFFFF; 
@@ -8,4 +10,3 @@
 :h1{
     background-color: #EBECEE;
 }
-@import url("../style/header.css");
