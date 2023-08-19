@@ -19,7 +19,7 @@
 h1{
     display: none;
 }
-@media screen and(min-whidth:1024px){
+@media screend and(min-whidth:1024px){
     h1{font-size: 30px;
     display: block;
 }
