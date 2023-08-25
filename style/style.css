@@ -1,12 +1,15 @@
 @import url("../style/header.css");
 
 :root{
-    --font-principal:
-    --cor-de-fundo:#EBECEE;
-    --cor-de-fundo:#FFFFFF; 
+    --cor-de-fundo:#ebecee;
+    --branco: #FFFFFF;
+    --fonte-principal: "Poppins"
 }
 :body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 :h1{
     background-color: #EBECEE;
