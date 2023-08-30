@@ -1,27 +1,31 @@
-.cabeçalho_menu-hamburger{
+.cabeçalho_menu-hamburger {
     width: 24px;
     height: 24px;
-    background-image: url(../imagem/Menu.svg);
+    background-image: url(../imagem/Menu.svg.png);
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.cabeçalho{
-    background-color:var(--branco);
+.cabeçalho {
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
 }
-.div-1{
+
+.div-1 {
     display: flex;
     align-items: center;
 }
-h1{
+
+h1 {
     display: none;
 }
-@media screen and(min-whidth:1024px){
-    h1{font-size: 30px;
-    display: block;
-}
+
+@media screen and(min-whidth:1024px) {
+    h1 {
+        display: block;
+        font-size: 30px;
+    }
 
 }
