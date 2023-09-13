@@ -23,7 +23,18 @@ h1 {
     position: absolute;
     top: 100%;
 }
-
+.lista-menu-título,.lista-menu-item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista-menu-título{
+    background-color: var(--amarelo);
+}
+.lista-menu-link{
+    background: var(--roxo);
+    background-clip: text;
+    text-transform: uppercase;
+}
 @media screen and(min-whidth:1024px) {
     h1 {
         display: block;
