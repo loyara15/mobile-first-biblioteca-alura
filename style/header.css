@@ -28,7 +28,8 @@ h1 {
     background-color: var(--branco);
 }
 .lista-menu-título{
-    background-color: var(--amarelo);
+    color: var(--amarelo);
+    font-weight: 700;
 }
 .lista-menu-link{
     background: var(--roxo);
