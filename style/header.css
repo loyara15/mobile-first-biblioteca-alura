@@ -32,6 +32,7 @@
     padding: 1em;
     background-color: var(--branco);
     display: none;
+    display:block;
     
 }
 .lista-menu-título{
