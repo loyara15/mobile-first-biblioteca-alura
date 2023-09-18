@@ -47,7 +47,7 @@ h1 {
 .div-menu{
     display: none;
 }
-.lista-menu li{
+.list-menu{
     display: none;
 }
 @media screen and(min-whidth:1024px) {
