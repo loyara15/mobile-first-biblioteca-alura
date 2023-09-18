@@ -20,14 +20,18 @@
     align-items: center;
 }
 
-.h1 {
+h1 {
     display: none;
+}
+.lista-menu{
+    display: block;
     position: absolute;
     top: 100%;
 }
 .lista-menu-título,.lista-menu-item{
     padding: 1em;
     background-color: var(--branco);
+    
 }
 .lista-menu-título{
     color: var(--amarelo);
