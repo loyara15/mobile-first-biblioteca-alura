@@ -48,7 +48,7 @@
 .div-menu{
     display: none;
 }
-.lista-menu{
+.lista-menu-item{
     display: none;
 }
 @media screen and(min-whidth:1024px) {
