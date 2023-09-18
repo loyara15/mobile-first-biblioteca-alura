@@ -28,7 +28,8 @@
     position: absolute;
     top: 100%;
 }
-.lista-menu-título,.lista-menu-item{
+.lista-menu-título,
+.lista-menu-item{
     padding: 1em;
     background-color: var(--branco);
     
