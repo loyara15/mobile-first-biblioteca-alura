@@ -55,6 +55,6 @@ div-menu{
     }
 
 }
-.div-menu:checked~.lista-menu{
+.div-menu:checked~.lista-menu-item{
     display: block;
 }
