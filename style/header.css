@@ -48,13 +48,14 @@
 div-menu{
     display: none;
 }
+.menu-hamburguer:focus+.lista-menu,
+.menu-hamburguer:hover+.lista-menu{
+    display: block ;
+}
 @media screen and(min-whidth:1024px) {
     h1 {
         display: block;
         font-size: 30px;
     }
 
-}
-.div-menu:checked.lista-menu{
-    display: block;
 }
