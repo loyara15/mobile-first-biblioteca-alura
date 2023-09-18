@@ -55,6 +55,9 @@ div-menu{
     }
 
 }
-.div-menu:checked~.lista-menu-item{
+.menu-hamburguer:hover+.lista-menu,.menu-hamburguer:focus+.lista-menu{
+    display: block;
+}
+.div-menu:checked~.lista-menu{
     display: block;
 }
