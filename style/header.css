@@ -31,6 +31,7 @@
 .lista-menu-item{
     padding: 1em;
     background-color: var(--branco);
+    display: none;
     
 }
 .lista-menu-título{
