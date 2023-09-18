@@ -40,7 +40,10 @@
     background-clip: text;
     text-transform: uppercase;
 }
-.lista-menu{
+.div-menu{
+    display: none;
+}
+.lista-menu li{
     display: none;
 }
 @media screen and(min-whidth:1024px) {
