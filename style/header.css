@@ -32,6 +32,7 @@
 .lista-menu-item{
     padding: 1em;
     background-color: var(--branco);
+    display: none;
     
 }
 .lista-menu-título{
@@ -46,9 +47,6 @@
     text-transform: uppercase;
 }
 .div-menu{
-    display: none;
-}
-.lista-menu-item{
     display: none;
 }
 @media screen and(min-whidth:1024px) {
