@@ -55,7 +55,7 @@ div-menu{
     }
 
 }
-.menu-hamburguer:hover+.lista-menu,.menu-hamburguer:focus+.lista-menu{
+.menu-hamburguer:hover+.lista-menu,.menu-hamburguer:focus+.lista-menu-item{
     display: block;
 }
 .div-menu:checked~.lista-menu{
