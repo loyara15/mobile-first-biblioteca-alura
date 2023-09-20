@@ -49,6 +49,9 @@
 .lista-menu{
     display: none;
 }
+.div-menu:checked~.lista-menu{
+    display: block;
+}
 @media screen and(min-whidth:1024px) {
     h1 {
         display: block;
@@ -56,6 +59,3 @@
     }
 }
 
-.div-menu:checked~.lista-menu{
-    display: block;
-}
