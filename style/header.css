@@ -27,8 +27,17 @@
     position: absolute;
     top: 100%;
 }
-
-…    -webkit-background-clip: text;
+.lista-menu-titulo,.lista-menu_item{
+    padding:1em;
+    background-color: var(--branco);
+}
+.lista-menu-titulo{
+    color: var(--amarelo);
+    font-weight: 700;
+}
+.lista-menu-link{
+    background: var(--roxo);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
