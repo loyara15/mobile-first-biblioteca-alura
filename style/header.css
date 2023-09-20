@@ -1,6 +1,6 @@
 .cabeçalho_menu-hamburger {
-    width: 24px;
-    height: 24px;
+    width: 70px;
+    height: 70px;
     background-image: url(../imagem/Menu.svg.png);
     display: inline-block;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
 }
-.h1 {
+h1 {
     display: none;
 }
 .lista-menu{
@@ -27,12 +27,10 @@
     position: absolute;
     top: 100%;
 }
-.lista-menu-título,
-.lista-menu-item{
+
+.lista-menu-título,.lista-menu-item{
     padding: 1em;
     background-color: var(--branco);
-    display: none;
-    
 }
 .lista-menu-título{
     color: var(--amarelo);
@@ -53,5 +51,11 @@
         display: block;
         font-size: 30px;
     }
+}
+.lista-menu{
+    display:none;
+}
 
+.div-menu:checked~.lista-menu{
+    display: block;
 }

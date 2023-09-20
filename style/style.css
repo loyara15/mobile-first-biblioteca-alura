@@ -1,9 +1,9 @@
 @import url("../style/header.css");
 
 :root{
-    --cor-de-fundo:#ebecee;
+    --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
-    --amarelo:#fecd2f;
+    --amarelo:#FECD2F;
     --roxo:#733887;
     --fonte-principal: "Poppins"
     
@@ -16,6 +16,4 @@ body{
     font-weight: 400;
 }
 
-h1{
-    background-color: #EBECEE;
-}
+h1{background-color: white;}
