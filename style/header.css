@@ -28,17 +28,7 @@
     top: 100%;
 }
 
-.lista-menu-título,.lista-menu_item{
-    padding: 1em;
-    background-color: var(--branco);
-}
-.lista-menu-título{
-    color: var(--amarelo);
-    font-weight: 700;
-}
-.lista-menu-link{
-    background: var(--roxo);
-    -webkit-background-clip: text;
+…    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
@@ -56,5 +46,7 @@
     display: none;
 }
 .div-menu:checked~.lista-menu{
-    display: block;
+    display: block; 
+    position: absolute;
+    top: 100%;
 }
