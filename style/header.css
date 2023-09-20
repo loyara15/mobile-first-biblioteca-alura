@@ -46,14 +46,14 @@ h1 {
 .div-menu{
     display: none;
 }
+.lista-menu{
+    display: none;
+}
 @media screen and(min-whidth:1024px) {
     h1 {
         display: block;
         font-size: 30px;
     }
-}
-.lista-menu{
-    display:none;
 }
 
 .div-menu:checked~.lista-menu{
