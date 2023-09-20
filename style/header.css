@@ -28,7 +28,7 @@
     top: 100%;
 }
 
-.lista-menu-título,.lista-menu-item{
+.lista-menu-título,.lista-menu_item{
     padding: 1em;
     background-color: var(--branco);
 }
@@ -46,7 +46,6 @@
 .div-menu{
     display: none;
 }
-
 @media screen and(min-whidth:1024px) {
     h1 {
         display: block;
